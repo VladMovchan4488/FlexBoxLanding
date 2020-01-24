@@ -1,0 +1,134 @@
+html,
+body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 6%; /* 35px */
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.menu {
+  display: flex;
+}
+
+.menuLi {
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+.line {
+  padding-right: 10px;
+  border-right: 2px solid #000;
+}
+
+.wrapper {
+  width: 100%;
+  height: 94%;
+  display: flex;
+}
+
+.wrapper2 {
+  width: 78%;
+}
+
+.menu2 {
+  display: flex;
+  align-items: center;
+  height: 6%; /* 35px */
+  border-bottom: 2px solid #000;
+}
+
+.container {
+  flex-wrap: wrap;
+  padding-top: 30px;
+  height: 88%;
+  overflow-y: scroll;
+  display: flex;
+}
+
+.symbol {
+  padding-left: 10px;
+}
+
+.menuLi2 {
+  padding-top: 1%;
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+.item {
+  margin: 0 auto;
+  padding: 0 !important;
+}
+
+.png {
+  height: 250px;
+  width: 250px;
+}
+
+.name {
+  text-align: center;
+}
+
+.img_wrapper {
+  text-align: center;
+  margin: 0;
+  padding: 0 !important;
+}
+
+.sidebar {
+  width: 25%; /* 300px */
+  border-right: 2px solid #000;
+  overflow-y: scroll;
+  padding: 1% 1%;
+  display: flex;
+}
+
+.dws-menu * {
+  margin: 0;
+  padding: 0;
+}
+
+.dws-menu ul {
+  list-style: none;
+}
+
+.dws-menu ul li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-size: 20px;
+}
+
+.inside {
+  padding-left: 10px;
+}
+
+.dws-menu li ul {
+  display: none;
+}
+
+.dws-menu li:hover > ul {
+  display: block;
+}
+
+.dws-menu li {
+  line-height: 32px;
+}
